@@ -1,4 +1,4 @@
-# dockerized Hybris MySQL #
+### dockerized Hybris MySQL
 
 The [Dockerfile](Dockerfile) included in this repository can be used to build a docker image of a mysql db.
 
