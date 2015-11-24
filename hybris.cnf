@@ -1,2 +1,3 @@
+[mysqld]
 # hybris recommends this setting for avoiding massive performace problems
 innodb_flush_log_at_trx_commit=0
