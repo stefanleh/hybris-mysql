@@ -1,3 +1,12 @@
+# https://wiki.hybris.com/display/release5/MySQL
+
+[client]
+default-character-set=utf8
+ 
+[mysql]
+default-character-set=utf8
+ 
 [mysqld]
-# hybris recommends this setting for avoiding massive performace problems
+character-set-server=utf8
+skip-character-set-client-handshake
 innodb_flush_log_at_trx_commit=0
