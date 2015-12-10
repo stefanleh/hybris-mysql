@@ -36,6 +36,6 @@ The command to start a hybris-mysql container is:
 
 #### performance
 
-MySQL suggests using a data directory located on the docker host for performance reasons. This can be achived by using the following command:
+MySQL suggests using a data directory located on the docker host for performance reasons. This can be achieved by using the following command:
 
 	docker run -d --name hybris-mysql -v /my/mysql/data/dir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d stefanlehmann/hybris-mysql:latest
