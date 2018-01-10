@@ -3,7 +3,7 @@ node {
    def customImage
 
    stage('Checkout') {
-        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'd38b3aaa-e003-4774-8742-13139ad5b6f1', url: 'https://git.unic.com/scm/plansee/mysql-jenkins-docker-runtime.git']]])
+        checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'svc-git-bu-ecom', url: 'https://git.unic.com/scm/plansee/mysql-jenkins-docker-runtime.git']]])
    }
 
    stage('Build Image') {
